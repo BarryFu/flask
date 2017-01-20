@@ -9,7 +9,7 @@
 	pip install flask
 	以及打flask可以看到如何執行
 
-!(https://github.com/BarryFu/flask/blob/master/picutre/1.JPG)
+![](https://github.com/BarryFu/flask/blob/master/picutre/1.JPG)
 
 ###	2.Hello
 	from flask import Flask    #先定義名稱Flask及格式flask
@@ -30,7 +30,7 @@
 	if __name__ == '__main__':
 	   app.run(debug = True)
 
-!(https://github.com/BarryFu/flask/blob/master/picutre/3.JPG)
+![](https://github.com/BarryFu/flask/blob/master/picutre/3.JPG)
 
 ### 4.製作html、按鈕
 	<html>		#頭尾是html格式及內文開始
@@ -46,7 +46,7 @@
 
 	另外html <br> 標籤代表的是換一行，而 <p> 標籤則會換兩行
 
-!(https://github.com/BarryFu/flask/blob/master/picutre/4.JPG)
+![](https://github.com/BarryFu/flask/blob/master/picutre/4.JPG)
 
 ### 5.呼叫nm裡面的名稱
 	from flask import Flask, redirect, url_for, request		#因為跟html有相互關係必須呼叫
@@ -68,4 +68,4 @@
 	if __name__ == '__main__':
 	   app.run(debug = True)
 
-!(https://github.com/BarryFu/flask/blob/master/picutre/5.JPG)
+![](https://github.com/BarryFu/flask/blob/master/picutre/5.JPG)
